@@ -18,36 +18,39 @@ Product.init(
     },
     // define product_name column
     product_name: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false
     },
     // define price column
-    type: DataTypes.DECIMAL,
-    allowNull: false,
-    validate: {
-      isDecimal: true
+    price: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
     },
-  
-  // define stock column
+    // define stock column
     stock: {
-    type: DataTypes.INTEGER,
-    allowNull: false,
-    defaultValue: 10,
-    validate: {
-      isNumeric: true
-    }
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 10,
+      validate: {
+        isNumeric: true
+      }
+    },
+    // define category_id column
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id',
+        
+      }
+    },
+
+  
   },
-  // define category_id column
-   category_id: {
-   type: DataTypes.INTEGER,
-  // references the category model's id
-   references: {
-     model: 'category',
-     key: 'id'
-    }
-   }
-  },
-   {
+  {
     sequelize,
     timestamps: false,
     freezeTableName: true,
