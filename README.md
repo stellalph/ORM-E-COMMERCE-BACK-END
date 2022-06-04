@@ -27,4 +27,6 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 ## References
 
 
-## License##
+## License
+
+This project is licensed under the terms of the MIT license.
