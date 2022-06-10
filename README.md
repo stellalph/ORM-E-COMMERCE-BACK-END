@@ -25,10 +25,20 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 * Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency 
   conflicts intelligently and initialized using <strong>npm init</strong>.  The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
 
-* 
+* This application also need the installation of MySQL which is a developer-friendly open source relational databse system.  The application uses MySQL packjage and 
+  sequelize package to connect Express.js to MySQL database and also the dotenv package to use environment variables to store sensitive data. Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
 
+  - npm install --save mysql2
+  - npm i sequelize
+  - npm install dotenv --save 
 
+* Nodemon is installed as development dependency meaning that if our application ever goes in production, this package will not be included. The command to        
+  The purpose of this package is to watch for any changes in our files and restart the server instead of us having to do that manually ourselves. The screenshot show the working of the nodemon.  
+ 
+  ![alt text](/assets/image01.png)
 
+* The database models are set up with its requirements.   MySQL Workbench is installed to help with design, create amd browse the database schemas, work with database objects and 
+  and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
 
 
 ## Usage
