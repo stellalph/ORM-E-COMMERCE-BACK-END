@@ -20,6 +20,16 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
 ## Installation
 
+* This application will need the installation of node.js from the website, https://www.node.org.
+
+* Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency 
+  conflicts intelligently and initialized using <strong>npm init</strong>.  The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
+
+* 
+
+
+
+
 
 ## Usage
 
