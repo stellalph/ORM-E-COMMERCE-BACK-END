@@ -98,7 +98,7 @@ router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
   Category.destroy({
     where: {
-      id: reparams.id
+      id: req.params.id
     }
   })
     .then(dbCategoryData => {
@@ -110,7 +110,7 @@ router.delete('/:id', (req, res) => {
     })
     .catch(err => {
       console.log(err);
-      res.status(500).jsone(err);
+      res.status(500).json(err);
     })
 
 

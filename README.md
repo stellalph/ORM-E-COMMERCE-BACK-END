@@ -37,8 +37,8 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
  
   ![alt text](/assets/image01.png)
 
-* The database models are set up with its requirements.   MySQL Workbench is installed to help with design, create amd browse the database schemas, work with database objects and 
-  and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
+* The database models are set up with its requirements.   MySQL Workbench is installed to help with design, create amd browse the database schemas, work with database objects       objects and and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
+
 
 
 ## Usage

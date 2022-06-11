@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
-});  
+});
 
 
 // get one product
@@ -48,15 +48,15 @@ router.get('/:id', (req, res) => {
   })
     .then(dbProductData => {
       if (!dbProductData) {
-        res.status(404).json({ message: 'No product found with this id'}); 
-        return; 
+        res.status(404).json({ message: 'No product found with this id' });
+        return;
       }
       res.json(dbProductData);
     })
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    }); 
+    });
 });
 
 // create new product
@@ -72,7 +72,7 @@ router.post('/', (req, res) => {
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
-      if (req.body.tagIds.length) {
+      if (req.body.tagIds) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
           return {
             product_id: product.id,
@@ -100,9 +100,14 @@ router.put('/:id', (req, res) => {
     },
   })
     .then((product) => {
-      // find all associated tags from ProductTag
-      return ProductTag.findAll({ where: { product_id: req.params.id } });
+      if (ProductTag.findAll({ where: { product_id: req.params.id } })) {
+
+        return ProductTag.findAll({ where: { product_id: req.params.id } });
+      }
+      res.json(product);
     })
+
+    // find all associated tags from ProductTag
     .then((productTags) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
@@ -131,7 +136,7 @@ router.put('/:id', (req, res) => {
       // console.log(err);
       res.status(400).json(err);
     });
-});
+})
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
@@ -139,18 +144,18 @@ router.delete('/:id', (req, res) => {
     where: {
       id: req.params.id
     }
-  })  
-  .then(dbProductData => {
-    if (!dbProductData) {
-        res.status(404).json({ message: 'No product found with this id'});
-        return;
-    }
-    res.json(dbProductData);
   })
-  .catch(err => {
-    console.log(err);
-    res.status(500).json(err);
-  });
+    .then(dbProductData => {
+      if (!dbProductData) {
+        res.status(404).json({ message: 'No product found with this id' });
+        return;
+      }
+      res.json(dbProductData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
 
 module.exports = router;
