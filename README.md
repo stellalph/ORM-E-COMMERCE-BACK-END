@@ -32,12 +32,13 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
   - npm i sequelize
   - npm install dotenv --save 
 
-* Nodemon is installed as development dependency meaning that if our application ever goes in production, this package will not be included. The command to        
+* Nodemon is installed as development dependency meaning that if our application ever goes in production, this package will not be included. The command to install 
+  for in this case is npm i -D nodemon.        
   The purpose of this package is to watch for any changes in our files and restart the server instead of us having to do that manually ourselves. The screenshot show the working of the nodemon.  
  
   ![alt text](/assets/image01.png)
 
-* The database models are set up with its requirements.   MySQL Workbench is installed to help with design, create amd browse the database schemas, work with database objects       objects and and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
+* The database models are set up with its requirements.   MySQL Workbench is installed to help with design, create and browse the database schemas, work with database      objects and insert data as well as design and run SQL queries to work with stored data.  Schemas and data from other database vendors can be migrated from database vendors to MySQL database.
 
 
 
