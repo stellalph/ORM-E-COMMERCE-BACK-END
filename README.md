@@ -50,6 +50,7 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
 * Product
 
+ ![alt text](/assets/image04.png)
 
 
 
