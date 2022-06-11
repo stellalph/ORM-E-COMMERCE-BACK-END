@@ -67,8 +67,27 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
 ## Usage
 
+After the creation of the models and routes, the <strong>npm run seed</strong>to seed the data to the database so the routes can be tested using insomnia.
+
+At command prompt, type in nodemon server.js (see the screenshot on nodemon) and when the App is listening on port 3001! then testing can begin with Products, Categories and Tags.
+
+This would be demonstrated the Walkthrough Video (using Screencastify).
+
+
+
+
 
 ## References
+
+* Unit 13 : The Unit Ahead Materials 
+  - Introduction to Object-Relational Mapping (LaunchCode)
+  - Sequelize: An Introduction
+  - Dotenv Methodology
+  - An Introduction to Environment Variables and How to Use them
+* Insomnia API Client Tutorial by Kishstats
+* The Full Stack Blog - Video Submission Guide dated May 11, 2022
+* Unit 13 : Student Mini Project.
+
 
 
 ## License
