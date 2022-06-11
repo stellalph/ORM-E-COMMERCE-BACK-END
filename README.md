@@ -52,8 +52,13 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
  ![alt text](/assets/image04.png)
 
+* ProductTag
 
+![alt text](/assets/image05.png)
 
+* Tag
+
+![alt text](/assets/image06.png)
 
 
 ## Usage
