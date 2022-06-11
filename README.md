@@ -60,7 +60,7 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
 ![alt text](/assets/image06.png)
 
-* For testing in Insomnia, the following folder and sub folders were set up as in the Mock-up.
+* For testing in Insomnia, the following project, E-Commerce Bac-End and sub folders were set up as in the Mock-up.
 
 ![alt text](/assets/image07.png)
 
