@@ -47,7 +47,6 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 * Category 
 
  ![alt text](/assets/image03.png) 
- ![alt text](/assets/image04.png) 
 
 * Product
 
