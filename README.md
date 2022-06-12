@@ -73,8 +73,17 @@ At command prompt, type in nodemon server.js (see the screenshot on nodemon) and
 
 This would be demonstrated the Walkthrough Video (using Screencastify).
 
+Part 1 - Walkthrough Video shows
 
+* [VIDEO](https://drive.google.com/file/d/1pOxKltqHeRW11KXqH_M0vnj1SKEacWPo/view)
 
+Part 2 - Walkthrough Video shows
+
+* [VIDEO](https://drive.google.com/file/d/1dnUBkNuXS-s4AIYcCVpVYBSpeqgGaV2Z/view)
+
+Part 2 - Walkthrough Video shows
+
+* [VIDEO](https://drive.google.com/file/d/1X9IDwcaOH-dafB32Y9dMq6Y2WXHakM-n/view)
 
 ## References
 
