@@ -54,11 +54,11 @@ and the repository name is ORM-E-COMMERCE-BACK-END.
 
 * ProductTag
 
-![alt text](/assets/image05.png)
+![alt text](/assets/image06.png)
 
 * Tag
 
-![alt text](/assets/image06.png)
+![alt text](/assets/image08.png)
 
 * For testing in Insomnia, the following project folder, E-Commerce Back-End and sub folders were set up as in the Mock-up.
 
