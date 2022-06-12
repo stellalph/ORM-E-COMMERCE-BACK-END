@@ -71,12 +71,14 @@ After the creation of the models and routes, run <strong>npm run seed</strong> t
 
 At command prompt, type in nodemon server.js (see the screenshot on nodemon) and when the App is listening on port 3001! then testing can begin with Products, Categories and Tags.
 
-This would be demonstrated the Walkthrough Video (using Screencastify).
+This would be demonstrated by the Walkthrough Video (using Screencastify).
 
 Part 1 - Walkthrough Video demonstrates:- 
 
 * the creation of schema from the MySQL shell
 * the seeding of the database from the command line
+
+<strong>Please click here for the walkthrough video - part 1</strong>.
 
 * [Walkthrough Video Part 1](https://drive.google.com/file/d/1pOxKltqHeRW11KXqH_M0vnj1SKEacWPo/view)
 
@@ -87,11 +89,15 @@ Part 2 - Walkthrough Video demonstrates:-
 * the GET routes for a singel category, a single product and a single tag being tested in Insomnia
 * the POST, PUT, and DELETE routes for categories and products being tested in Insomnia
 
+<strong>Please click here for the walkthrough video - part 2</strong>.
+
 * [Walkthrough Video Part 2](https://drive.google.com/file/d/1dnUBkNuXS-s4AIYcCVpVYBSpeqgGaV2Z/view)
 
 Part 3 - Walkthrough Video demonstrates:-
 
 * the POST, PUT, and DELETE routes for tags being tested in Insomnia
+
+<strong>Please click here for the walkthrough video - part 3</strong>.
 
 * [Walkthrough Video Part 3](https://drive.google.com/file/d/1X9IDwcaOH-dafB32Y9dMq6Y2WXHakM-n/view)
 
