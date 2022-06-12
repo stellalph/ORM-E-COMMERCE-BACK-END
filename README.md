@@ -73,17 +73,27 @@ At command prompt, type in nodemon server.js (see the screenshot on nodemon) and
 
 This would be demonstrated the Walkthrough Video (using Screencastify).
 
-Part 1 - Walkthrough Video shows
+Part 1 - Walkthrough Video demonstrates:- 
 
-* [VIDEO](https://drive.google.com/file/d/1pOxKltqHeRW11KXqH_M0vnj1SKEacWPo/view)
+* the creation of schema from the MySQL shell
+* the seeding of the database from the command line
 
-Part 2 - Walkthrough Video shows
+* [Walkthrough Video Part 1](https://drive.google.com/file/d/1pOxKltqHeRW11KXqH_M0vnj1SKEacWPo/view)
 
-* [VIDEO](https://drive.google.com/file/d/1dnUBkNuXS-s4AIYcCVpVYBSpeqgGaV2Z/view)
+Part 2 - Walkthrough Video demonstrates:-
 
-Part 2 - Walkthrough Video shows
+* the "how-to-start" the application server
+* the GET routes for all categories, all products and all tags being tested in Insomnia
+* the GET routes for a singel category, a single product and a single tag being tested in Insomnia
+* the POST, PUT, and DELETE routes for categories and products being tested in Insomnia
 
-* [VIDEO](https://drive.google.com/file/d/1X9IDwcaOH-dafB32Y9dMq6Y2WXHakM-n/view)
+* [Walkthrough Video Part 2](https://drive.google.com/file/d/1dnUBkNuXS-s4AIYcCVpVYBSpeqgGaV2Z/view)
+
+Part 3 - Walkthrough Video demonstrates:-
+
+* the POST, PUT, and DELETE routes for tags being tested in Insomnia
+
+* [Walkthrough Video Part 3](https://drive.google.com/file/d/1X9IDwcaOH-dafB32Y9dMq6Y2WXHakM-n/view)
 
 ## References
 
