@@ -76,7 +76,6 @@ This would be demonstrated the Walkthrough Video (using Screencastify).
 
 
 
-s
 ## References
 
 * Unit 13 : The Unit Ahead Materials 
